@@ -108,8 +108,8 @@ const SentimentFormAndResult = () => {
         </form>
 
         {dispResultDiv && <Box className="w-full" bg="purple.800" boxShadow='2xl' marginTop={14} textAlign="center" p={8} borderRadius={8} display="flex" alignItems="center" justifyContent="center" flexDirection="column" gap={5}>
-          <Box className="text-xl lg:text-3xl text-white">Input Text: {storeInputTextToShowInResultDiv}</Box>
-          <Box className="text-xl lg:text-3xl text-white">Sentiment: {result}</Box>
+          <Box className="text-xl lg:text-2xl text-white text-center">Input Text: {storeInputTextToShowInResultDiv}</Box>
+          <Box className="text-xl lg:text-2xl text-white text-center">Sentiment: {result}</Box>
         </Box>}
 
         <Box display="flex" justifyContent="center" alignItems="center" mt="20" gap={1} marginBottom="12">
