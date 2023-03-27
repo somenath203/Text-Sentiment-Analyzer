@@ -6,7 +6,7 @@ const Navbar = () => {
       
       <Box fontFamily="sans-serif" letterSpacing="wider" className="text-md lg:text-5xl" fontSize={{ sm: '2xl', lg: '3xl'}} color="red.200">Text Sentiment Analyzer</Box>
 
-      <Box className="text-2xl lg:text-5xl" cursor="pointer"><i className="ri-github-fill"></i></Box>
+      <Box className="text-2xl lg:text-5xl text-white" cursor="pointer"><i className="ri-github-fill"></i></Box>
 
     </Box>
   )

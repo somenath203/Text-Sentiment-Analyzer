@@ -88,10 +88,10 @@ const SentimentFormAndResult = () => {
 
       <Box className="w-10/12 lg:w-3/6" mt="44">
 
-        <form onSubmit={onSubmitForm}>
+        <form onSubmit={onSubmitForm} className='text-white'>
 
           <FormControl isRequired>
-            <FormLabel>Text</FormLabel>
+            <FormLabel className="text-white">Text</FormLabel>
             <Input
               type='text'
               placeholder="enter the text whose sentiment you want to analyze"
