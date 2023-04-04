@@ -72,10 +72,10 @@ const SentimentFormAndResult = () => {
 
       toast({
         title: 'Failure',
-        description: 'Failed to analyze sentiment. Please try again.',
+        description: 'Failed to analyze sentiment or API key usage limit reached',
         status: 'error',
-        duration: 5000,
-        isClosable: false
+        duration: 9000,
+        isClosable: true
       });
 
     }
